@@ -1,0 +1,13 @@
+interface:
+  display_name: 商业场景与灯光批处理
+  short_description: 先确认人物造型、背景与视频规格，IMAGE原生1K首帧两次审图后批量出片
+  default_prompt: 使用 $cinematic-background-batch 处理这批视频。先让我确认人物、造型、目标背景和视频规格，再用IMAGE2.0或IMAGE2.5原生1K制作完整首帧样图，逐门确认后继续。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

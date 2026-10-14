@@ -1,0 +1,73 @@
+{
+  "schema_version": 2,
+  "project_name": "口播商业场景项目",
+  "sample_generation_limit": 4,
+  "roles": [],
+  "scene_groups": [],
+  "reference_files": [],
+  "role_assignments": {},
+  "clip_groups": {},
+  "visual_policy": {
+    "preserve_face_structure": true,
+    "preserve_performance": true,
+    "preserve_original_audio": true,
+    "relighting": "controlled",
+    "appearance": "only_changes_explicitly_confirmed_in_B0",
+    "preserve_products": true,
+    "art_direction": "TVC_real_photography",
+    "preserve_facial_structure_always": true
+  },
+  "providers": {
+    "image": {
+      "platform": null,
+      "model": null,
+      "model_family": null,
+      "verified_model": null,
+      "verified_model_family": null,
+      "verified": false,
+      "verification": {
+        "evidence": null,
+        "checked_at": null
+      },
+      "native_outputs": []
+    },
+    "video": {
+      "platform": null,
+      "model": null,
+      "mode": "unverified",
+      "verified": false,
+      "verification": {
+        "evidence": null,
+        "checked_at": null
+      },
+      "native_outputs": []
+    }
+  },
+  "output": {
+    "keep_timing": true,
+    "aspect_ratio_source": "user_G0_selection",
+    "no_automatic_upscale": true
+  },
+  "deliverable": "video",
+  "canvas": {
+    "aspect_ratio": null,
+    "framing": null
+  },
+  "image_output": {
+    "resolution": "1K",
+    "width": null,
+    "height": null
+  },
+  "video_output": {
+    "resolution": null,
+    "width": null,
+    "height": null
+  },
+  "creative_brief": {
+    "people": [],
+    "role_people": {},
+    "looks": [],
+    "clip_looks": {},
+    "backgrounds": []
+  }
+}
