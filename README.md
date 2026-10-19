@@ -16,8 +16,7 @@
 ## 目录结构
 
 ```
-cinematic-background-batch/
-├── SKILL.md                 # 技能主入口（必读）
+├── skill.md                 # 技能主入口（必读）
 ├── agents/
 │   └── openai.yaml          # 显示信息配置
 ├── assets/
@@ -47,13 +46,13 @@ cinematic-background-batch/
 
 ## 安装
 
-将整个 `cinematic-background-batch` 目录导入支持文件夹技能的工具（如 Marvis），按工具规定放入技能目录，**不要只复制 SKILL.md**。
+将本仓库整体导入支持文件夹技能的工具（如 Marvis），按工具规定放入技能目录，**不要只复制 skill.md**。
 
 依赖：Python 3.10+、Pillow、FFmpeg/FFprobe
 
 ```bash
-python3 -m pip install -r cinematic-background-batch/scripts/requirements.txt
-python3 cinematic-background-batch/scripts/test_tools.py
+python3 -m pip install -r scripts/requirements.txt
+python3 scripts/test_tools.py
 ```
 
 ## 使用
@@ -81,4 +80,4 @@ python3 cinematic-background-batch/scripts/test_tools.py
 
 ## 许可证
 
-随包未附带 LICENSE。使用前请与作者确认授权范围。
+本项目采用 MIT 许可证，详见 [LICENSE](LICENSE)。
