@@ -16,7 +16,7 @@
 ## 目录结构
 
 ```
-├── skill.md                 # 技能主入口（必读）
+├── SKILL.md                 # 技能主入口（必读）
 ├── agents/
 │   └── openai.yaml          # 显示信息配置
 ├── assets/
@@ -46,7 +46,7 @@
 
 ## 安装
 
-将本仓库整体导入支持文件夹技能的工具（如 Marvis），按工具规定放入技能目录，**不要只复制 skill.md**。
+将本仓库整体导入支持文件夹技能的工具（如 Marvis），按工具规定放入技能目录，**不要只复制 SKILL.md**。
 
 依赖：Python 3.10+、Pillow、FFmpeg/FFprobe
 
